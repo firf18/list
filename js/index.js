@@ -1,8 +1,11 @@
+let listFood = document.querySelectorAll('.list-food li');
+let body = document.querySelector('body')
 
 listFood.forEach((list) =>{
     list.addEventListener('mouseenter',backgroundChange)
 })
-const backgroundChange =(e)=>{
+
+function backgroundChange(e){
 
     // console.log(e.target.parentNode)
 
@@ -68,5 +71,4 @@ const toChange = (e,name)=>{
     // console.log(`url('./img/${name}.jpg')`)
 
     e.target.parentNode.style.backgroundImage = `url('./img/${name}.jpg')`;
-
 }

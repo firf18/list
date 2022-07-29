@@ -1,9 +1,8 @@
 
 listFood.forEach((list) =>{
     list.addEventListener('mouseenter',backgroundChange)
-}
-
-function backgroundChange(e){
+})
+const backgroundChange =(e)=>{
 
     // console.log(e.target.parentNode)
 

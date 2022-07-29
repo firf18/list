@@ -1,9 +1,7 @@
-let listFood = document.querySelectorAll('.list-food li');
-let body = document.querySelector('body')
 
 listFood.forEach((list) =>{
     list.addEventListener('mouseenter',backgroundChange)
-})
+}
 
 function backgroundChange(e){
 
@@ -45,7 +43,7 @@ function backgroundChange(e){
             toChange(e,e.target.id);
             break;
 
-        case 'Meat':
+        case 'meat':
             toChange(e,e.target.id);
             break;
 

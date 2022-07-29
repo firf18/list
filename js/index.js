@@ -45,7 +45,7 @@ function backgroundChange(e){
             toChange(e,e.target.id);
             break;
 
-        case 'Meat':
+        case 'meat':
             toChange(e,e.target.id);
             break;
 
